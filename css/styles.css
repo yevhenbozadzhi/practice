@@ -25,6 +25,7 @@ img {
 
 button {
     cursor: pointer;
+    border: none;
 }
 
 body {
@@ -360,7 +361,9 @@ width: 450px;
 }
 /* Process / quick */
 .quick{
-padding: 50px;
+padding: 100px;
+max-width: 960px;
+margin: 0 auto;
 }
 .quick-text-wrap{
     display: flex;
@@ -369,7 +372,114 @@ padding: 50px;
     justify-self: center;
     text-align: center;
     gap: 25px;
+    margin-bottom: 40px;
 }
-.quick-text{
+.quick-list{
+    margin-bottom: 50px;
+}
+
+.quick-conact-first,
+.quick-conact-second{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-item-dd,
+.quick-item{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 25px;
+}
+
+.quick-subtext {
+    padding-left: 20px;
+    width: 281px;
+}
+
+
+.quick-conact-first > .quick-item-dd{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+}
+.quick-conact-second > .quick-item-dd{
+    display: flex;
+    flex-direction: row-reverse;
+        align-items: center;
+}
+.quick-btn-container {
+    display: flex;
+   justify-content: center;
+}
+
+.quick-btn{
+background-color: #02897a;
+color: #fff;
+border-radius: 4px;
+    width: 216px;
+    height: 53px;
+   
+}
+/* contents */
+.contents {
+    padding: 50px;
+}
+
+.contents-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
     
+}
+.contents-container-list{
+   
+  
+}
+.contents-title {
+    margin-bottom: 10px;
+}
+
+.content-text {}
+
+.contents-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contents-item {
+border: 1px solid #dedede;
+    border-radius: 8px;
+    
+}
+
+.contents-img {
+    margin-bottom: 24px;
+}
+
+.contents-subtext {
+    max-width: 236px;
+    margin-bottom: 12px;
+}
+
+.contents-subtitle {
+    max-width: 296px;
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 1.66667;
+}
+     .contents-subtitle-green{
+        max-width: 296px;
+            font-weight: 700;
+            font-size: 24px;
+        line-height: 1.66667;
+            color: #02897a;
+
+     }  
+  .contents-span{
+    font-weight: 700
+  } 
+.contents-container-img{
+    padding: 0px 0px 40px 24px;
 }
